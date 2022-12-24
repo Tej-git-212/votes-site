@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#navbar {
+  padding: 1.5% 0;
+  text-align: center;
+  color: aliceblue;
+  background-color: rgb(42, 43, 43);
+}
+
+.nav-head {
+  line-height: 2ch;
+}
+
+#sub-navbar {
+  display: flex;
+  padding: 1% 0;
+  margin-bottom: 10px;
+  justify-content: space-between;
+  border: 1px solid rgb(221, 221, 221);
+}
+
+#font-setter {
+  margin-left: 5%;
+  display: flex;
+  align-items: center;
+}
+
+#font-setter p,
+#font-setter button,
+#lang-setter p {
+  margin-right: 10px;
+}
+
+#font-setter .btn {
+  padding: 3px 10px;
+  border-radius: 7px;
+}
+
+.btn {
+  outline: none;
+  color: aliceblue;
+  background-color: rgb(60, 60, 60);
+}
+
+#lang-setter {
+  display: flex;
+  margin-right: 5%;
+  align-items: center;
+}
+
+#lang-setter select {
+  padding: 5px 10px;
+}
+
+.note h2 {
+  color: brown;
+  margin-left: 5%;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#app-container {
+  display: flex;
+  justify-content: center;
+}
+
+#container {
+  width: 80%;
+  padding: 10px;
+  line-height: 3ch;
+  border: solid 0.5px gray;
+  background-color: rgb(238, 238, 238);
+}
+
+#formHeading {
+  padding: 20px;
+  background-color: rgb(199, 197, 197);
+}
+
+.description {
+  padding: 20px;
+  font-size: 20px;
+  margin-bottom: 5%;
+  background-color: rgb(224, 171, 157);
+}
+
+.sel {
+  outline: none;
+  padding: 4px 12px;
+  color: aliceblue;
+  margin: 0 3%;
+  background-color: rgb(60, 60, 60);
+}
+
+.row {
+  display: flex;
+  margin-left: 10%;
+  align-items: center;
+}
+
+.space {
+  margin-right: 12%;
+}
+
+.llspace {
+  margin-left: 3%;
+}
+
+.lrspace {
+  margin-right: 3%;
+}
+
+.specs {
+  margin-left: 10%;
+}
+
+.specss {
+  display: flex;
+  align-items: center;
+}
+
+.inp {
+  padding: 5px 20px;
+  margin: 0 5%;
+  outline: none;
+}
+
+.xspec {
+  display: flex;
+  align-items: center;
+}
+
+#field {
+  border: none;
+  margin: 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.upload input {
+  padding: 5px 25px 5px 3px;
+  margin-right: 8%;
+  border: 1px solid rgb(221, 221, 221);
+}
+
+.upload-row {
+  display: flex;
+}
+
+#sup-doc {
+  margin-left: 10%;
+}
+
+.centered {
+  display: flex;
+  margin-bottom: 2%;
+  justify-content: center;
+}
+
+.gbtn {
+  border: none;
+  outline: none;
+  color: azure;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: rgb(5, 153, 44);
+}
+
+.footer {
+  padding: 2% 0;
+  color: rgb(176, 176, 176);
+  text-align: center;
+  background-color: rgb(7, 7, 7);
+}
