@@ -1,9 +1,7 @@
 import React from "react";
 import "./styles.css";
 import Star from "./Star";
-import Header from "./Header";
 import Application from "./Application";
-import Footer from "./Footer";
 
 function handleFontInc() {
   console.log("Font Inc");
@@ -16,8 +14,6 @@ function handleFontDec() {
 export default function Home() {
   return (
     <div id="home">
-      <Header />
-
       <div id="sub-navbar">
         <div id="font-setter">
           <p>Increase / Decrease font:</p>
@@ -42,10 +38,9 @@ export default function Home() {
           Note: Fields marked with asterisks (<Star />) are mandatory to fill
         </h2>
       </div>
-      <div id="app-container">
+      <div className="app-container">
         <Application />
       </div>
-      <Footer />
     </div>
   );
 }
